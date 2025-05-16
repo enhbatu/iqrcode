@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+.container {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 100%;
+}
+.inputs {
+    display: block;
+    background: rgb(249 250 251 / var(--tw-bg-opacity, 1));
+    border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
+    border-width: 1px;
+    border-style: solid;
+    padding: 30px;
+    border-radius: 0.5rem;
+    width: calc(100% - 60px);
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    color: #2b2b2b;
+    /* bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 */
+}
+.button-full {
+    display: block;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    padding: 30px;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    border-radius: 0.5rem;
+    background-color: #20B177;
+    border: none;
+    color: #DDFFF2;
+}
+.qrcode {
+    width: 300px;
+    margin: 0 auto;
+}
